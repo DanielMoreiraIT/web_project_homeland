@@ -1,0 +1,35 @@
+.lead {
+  margin-top: 90px;
+}
+
+.lead__title {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1.04;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.lead__subtitle {
+  max-width: 720px;
+  margin: 32px auto 0;
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.lead__image {
+  display: block;
+  width: 100%;
+  max-width: 984px;
+  margin: 64px auto 0;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
