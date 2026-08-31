@@ -33,3 +33,19 @@
   object-fit: cover;
   filter: grayscale(100%);
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    max-width: 530px;
+    font-size: 75px;
+    line-height: 1.05;
+  }
+
+  .lead__subtitle {
+    margin-top: 25px;
+  }
+
+  .lead__image {
+    margin-top: 30px;
+  }
+}
